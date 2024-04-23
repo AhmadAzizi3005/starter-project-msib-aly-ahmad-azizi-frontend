@@ -3,10 +3,10 @@ import logoImg from "../assets/logo.png";
 import Button from "./Button"
 export default function Navbar(){
   let Links=[
-    {name:"Home",link:"/"},
-    {name:"Vegetables",link:"/"},
-    {name:"Fruits",link:"/"},
-    {name:"Profile",link:"/"},
+    {name:"Home",link:""},
+    {name:"Vegetables",link:""},
+    {name:"Fruits",link:""},
+    {name:"Profile",link:"/profile"},
   ];
   let[open,setOpen]=useState(false);
 
@@ -27,7 +27,7 @@ export default function Navbar(){
         {
           Links.map((link)=>(
             <li key={link.name} className="ml-10 text-xl font-[Poppins] md:my-0 my-7">
-            <a href={link.link} className="text-primary hover:text-secondary duration-500">{link.name}</a>
+            <a href={link.link} className="text-primary hover:text-secondary duration-500 active:texse">{link.name}</a>
           </li>
           ))
         }
