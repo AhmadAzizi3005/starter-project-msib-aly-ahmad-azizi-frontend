@@ -6,11 +6,11 @@ export default function Profile() {
   return (
     <div className="bg-white h-screen w-screen">
       <Navbar />
-      <div className="pt-36 pb-32 relative">
-        <div className="md:w-[900px] w-[450px] md:h-[200px] h-[150px] bg-secondary shadow-xl rounded-2xl mx-auto flex justify-center items-center relative">
+      <div className="pt-36 pb-4 flex flex-col justify-center items-center">
+        <div className="md:w-[900px] w-[450px] md:h-[200px] h-[150px] bg-secondary shadow-xl rounded-2xl mx-auto flex justify-center items-center">
           <h1 className="text-2xl text-white font-[Poppins]">My Profile</h1>
         </div>
-        <div className="w-[500px] h-[450px] md:w-[700px] md:h-[550px]  p-2 md:absolute md:left-[500px] md:top-[264px] bg-white shadow-xl border rounded-[25px] mt-5 ml-4">
+        <div className="w-[500px] h-[450px] md:w-[700px] md:h-[550px] md:-mt-16 p-2 justify-center items-center bg-white shadow-xl border rounded-[25px] mt-5 ml-4">
           <div className="flex justify-center items-center mt-3">
             <img
               src={pp}
