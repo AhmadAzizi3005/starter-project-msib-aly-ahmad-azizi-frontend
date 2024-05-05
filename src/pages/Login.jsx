@@ -54,7 +54,7 @@ export default function Login() {
                 width="16"
                 height="16"
                 fill="grey"
-                class="bi bi-eye-fill absolute top-2/3 right-3 -translate-y-1/2 cursor-pointer"
+                className="bi bi-eye-fill absolute top-2/3 right-3 -translate-y-1/2 cursor-pointer"
                 viewBox="0 0 16 16"
               >
                 <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
