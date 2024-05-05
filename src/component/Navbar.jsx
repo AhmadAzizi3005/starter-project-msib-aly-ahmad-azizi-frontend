@@ -12,6 +12,7 @@ export default function Navbar(){
 
 
   return (
+
    <div className="shadow-md w-full fixed top-0 left-0 z-50">
     <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7 ">
       <div>
@@ -27,16 +28,15 @@ export default function Navbar(){
         {
           Links.map((link)=>(
             <li key={link.name} className="ml-10 text-xl font-[Poppins] md:my-0 my-7">
-            <a href={link.link} className="text-primary hover:text-secondary duration-500 active:texse">{link.name}</a>
+            <a href={link.link} className="text-primary hover:text-secondary duration-500 active:text-secondary">{link.name}</a>
           </li>
           ))
         }
         <Button >
-          Exit
+          Log Out
         </Button>
       </ul>
     </div>
-    <div className="border-t border-4 border-secondary my-4 w-16 absolute rounded-t-lg right-[140px] top-[52px] md:block hidden"></div>
     </div>
   )
 }

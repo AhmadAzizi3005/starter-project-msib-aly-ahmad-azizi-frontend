@@ -10,7 +10,7 @@ export default function Profile() {
         <div className="md:w-[800px] w-[450px] md:h-[200px] h-[150px] bg-secondary shadow-xl rounded-2xl mx-auto flex justify-center items-center">
           <h1 className="text-2xl text-white font-[Poppins]">My Profile</h1>
         </div>
-        <div className="w-[500px] h-[350px] md:w-[650px] md:h-[400px] md:-mt-16 p-2 justify-center items-center bg-white shadow-xl border rounded-[25px] mt-5 ml-4">
+        <div className="w-[450px] h-[350px] md:w-[650px] md:h-[400px] md:-mt-16 p-2 justify-center items-center bg-white shadow-xl border rounded-[25px] mt-5 ml-4">
           <div className="flex gap-2 items-center justify-center m-3 md:m-3">
             <div className="md:w-1/2 w-1/2">
               <a
@@ -34,11 +34,11 @@ export default function Profile() {
               <img
                 src={pp}
                 alt="Foto Profile"
-                className="rounded-full object-cover w-20 h-20 md:w-24 md:h-24 m-3 md:mt-0"
+                className="rounded-full object-cover w-20 h-20 md:w-36 md:h-36 m-3 md:mt-0"
               />
               <a
                 href=""
-                className="md:py-2 md:px-7 py-2 px-4 rounded-lg bg-secondary text-white text-sm md:text-lg"
+                className="md:py-[5px] md:px-4 py-1 px-4 rounded-lg bg-secondary text-white text-sm md:text-lg"
               >
                 Change Profile
               </a>
